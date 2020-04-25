@@ -14,5 +14,5 @@ int main() {
 		putchar(c);
 	}
 
-	return EOF;
+	return 0;
 }
