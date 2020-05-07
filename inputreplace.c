@@ -2,7 +2,7 @@
 
 /* Simple input to output copier */
 /* Replaces tabs with '\t', blank space with '\s', and backslash with '\\' */
-/* Backslash requires double slash (//) in getchar then quadruple (////) to be printed */
+/* Backslash requires double slash (\\) in getchar then quadruple slash (\\\\) to be printed */
 
 int main() {
     int c;
