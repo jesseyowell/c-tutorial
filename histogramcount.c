@@ -16,7 +16,6 @@ int main() {
   }
 
   while ((c = getchar()) != EOF) {
-       
     if((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z')) {
 	  ++count;
 	}   
