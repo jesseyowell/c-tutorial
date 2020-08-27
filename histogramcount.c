@@ -27,6 +27,8 @@ int main() {
 		}
 		else state = IN;
 	}  
+	// this executes after resuming the stalled job
+
        printf("word size = ");
 	      
 	    for(j = 1; j < 10; ++j) {
@@ -34,6 +36,14 @@ int main() {
 	                               // we add 1 to j so we don't print out 0 char words
 	    }
 		putchar('\n');
+
+		for(i = 1; i < 10; ++i) {
+			printf("%d ",i);
+			for(int n = 0; n < nchar[i]; ++n) {
+				putchar('*');     // a nested for loop to print out the stars for the word count 
+			}
+			putchar('\n');
+		}
 
 		return 0;		
 }
